@@ -49,7 +49,6 @@
     max-width: 760px;
 
     padding: 1em 1em;
-    
 }
 .gallery__image {
     position: relative;
@@ -59,10 +58,12 @@
 .close {
     position: absolute;
     right: 15px;
+
     font-size: 28px;
     font-weight: 900;
     color: var(--color-font-white);
 
+    cursor: pointer;
     background: #333333da;
 
     z-index: 105;

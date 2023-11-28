@@ -41,6 +41,8 @@ gallery_item.forEach((item) => {
 
 close__button.addEventListener('click', close);
 
+
+
 function galleryItemFunk(item) {
     const item__src = item.target.getAttribute('src');
     
