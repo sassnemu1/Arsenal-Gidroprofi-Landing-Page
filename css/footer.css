@@ -1,0 +1,21 @@
+.footer {
+    width: 100%;
+    background: var(--color-background-footer-submenu);
+}
+.footer__menu ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.footer__menu ul li {
+    color: var(--color-font-white);
+    padding: 1em 3em;
+}
+
+
+@media (max-width: 450px) {
+    .footer__menu ul li {
+        font-size: 9px;
+    }
+}

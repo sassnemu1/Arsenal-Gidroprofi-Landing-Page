@@ -1,0 +1,46 @@
+/* font-family: 'Roboto', sans-serif; */
+@font-face {
+    font-family: 'Roboto';
+    src: url('../font/Roboto/Roboto-Regular.ttf');
+}
+/* font-family: 'Rubik Mono One', monospace; */
+@font-face {
+    font-family: 'Rubik Mono One';
+    src: url('../font/Rubik_Mono_One/RubikMonoOne-Regular.ttf');
+}
+   
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: #333;  
+}
+
+.app { 
+    width: 100%; 
+    max-width: 1920px;
+    min-width: 320px;
+    margin: 0 auto;
+}
+
+:root {
+    --color-main: #fafa6f;
+    --color-black: #333;
+    
+    /* #292929a4 shadow contact form !!! */
+    --color-shadow: #3a3939a6;
+    --color-shadow-medium-light: #fefefe2d;
+    --color-shadow-light: #fefefe38;
+    
+    
+    --color-font-white: #fefefe;
+    --color-font-red: rgb(212, 9, 9);
+
+    --color-background-footer-submenu: #3a3939;
+    --color-background-gallery_visible: rgba(12, 12, 12, 0.788);
+
+    --image-background-contact-form: url('../assets/img10.png');
+}

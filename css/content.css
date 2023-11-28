@@ -1,0 +1,114 @@
+/* ///////////////////////// 
+Content Description Block */
+
+.content__description {
+    position: relative;
+    margin: 0 auto;
+
+    height: 100%;
+    margin: 35px auto;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.content__description_headline {
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+
+    font-size: 35px;
+
+    padding: 0.3em 0;
+    margin: 0 1em;
+
+}
+    .content__description_headline::after {
+        content: "";
+        width: 82px;
+        height: 3px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: var(--color-black);
+    }
+.content__description_text {
+    padding: 1em 1.5em;
+    max-width: 500px;
+}
+
+/* //////////////////////////////// 
+Content catalog item block       */
+
+.content__info_catalog {
+    width: 100%;
+    margin: 25px auto;
+}
+.content__catalog {
+    display: flex;
+    justify-content: center; 
+}
+.content__catalog ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.content__catalog_item {
+    width: 320px;
+
+    margin: 0 6px 0 6px;
+
+    border-radius: 3px;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.content__catalog_item img {
+    height: 200px;
+    object-fit: cover;
+    
+}
+.content__catalog_item_name {
+    font-size: 20px;
+    font-weight: 900;
+
+    padding: 10px 10px;
+}
+.content__catalog_item_price {
+    font-size: 19px;
+    color: var(--color-font-red);
+
+    padding: 5px 10px;
+}
+.content__catalog_item_description {
+    font-size: 19px;
+    padding: 5px 10px;
+}
+
+
+
+@media (max-width: 700px) {
+    .content__description_text {
+        padding: 1em 1.5em;
+        text-align: center;
+        max-width: 300px;
+    }
+}
+@media (max-width: 450px) {
+    .content__catalog_item {
+        margin: 0 15px 0 15px;
+    }
+    .content__catalog_item {
+        width: 260px;
+    }
+    .content__catalog img {
+        height: 165px;
+    }
+    .content__catalog ul li span {
+        font-size: 15px;
+    }
+}
+
